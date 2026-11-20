@@ -1,77 +1,320 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Política de privacidad — TurnoZen</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad · TurnoZen</title>
+<meta name="description" content="Qué datos trata TurnoZen, calendario de turnos para Android: tu cuadrante se queda en tu móvil; los anuncios los sirve Google AdMob.">
+<link rel="canonical" href="https://asierfabianplasencia-cmyk.github.io/">
 <style>
-  :root { color-scheme: light dark; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 2.5rem 1.5rem 4rem;
-    line-height: 1.6;
-    color: #1a1a1a;
-    background: #ffffff;
+  :root {
+    --bg: #f7f8f9; --surface: #ffffff; --text: #16191d; --muted: #4b545e;
+    --border: #d9dee3; --accent: #0b6e6e;
   }
   @media (prefers-color-scheme: dark) {
-    body { color: #e5e5e5; background: #0b0f12; }
-    a { color: #67d1ff; }
+    :root { --bg: #0f1215; --surface: #171b20; --text: #e8ebee; --muted: #a9b2bc;
+            --border: #2a3038; --accent: #5cc8c8; }
   }
-  h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
-  h2 { font-size: 1.15rem; margin-top: 2rem; }
-  .updated { color: #737373; font-size: 0.9rem; margin-bottom: 2rem; }
-  a { color: #0a6ed1; }
-  ul { padding-left: 1.25rem; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 1.25rem; margin: 40px 0 8px; padding-top: 8px; border-top: 1px solid var(--border); }
+  h3 { font-size: 1.05rem; margin: 24px 0 4px; }
+  p, li { color: var(--text); }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); }
+  .lang { display: flex; gap: 12px; margin: 12px 0 24px; }
+  .box { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; }
+  .table-wrap { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; }
+  hr.big { border: 0; border-top: 3px double var(--border); margin: 64px 0 0; }
 </style>
 </head>
 <body>
-  <h1>Política de privacidad de TurnoZen</h1>
-  <p class="updated">Última actualización: 13 de agosto de 2026</p>
+<main>
 
-  <p>TurnoZen es un calendario de turnos de trabajo para Android. Esta página
-  describe qué datos maneja la aplicación y cómo.</p>
+<!-- ============================ ESPAÑOL ============================ -->
+<article id="es" lang="es">
+<h1>Política de privacidad de TurnoZen</h1>
+<p class="muted">Última actualización: 20 de noviembre de 2026 · Versión de la app a la que se refiere: 1.2.0 y posteriores</p>
+<nav class="lang"><a href="#es">Español</a><a href="#en">English</a></nav>
 
-  <h2>Datos que NO recogemos</h2>
-  <ul>
-    <li>No requiere crear una cuenta para usarse.</li>
-    <li>No recogemos datos de salud ni de estado físico.</li>
-    <li>No accedemos a la cámara ni al micrófono.</li>
-  </ul>
+<div class="box">
+<p><strong>En pocas palabras.</strong> TurnoZen es un calendario de turnos que funciona sin cuenta y sin conexión. <strong>Tu cuadrante, tus plantillas, tus notas y tus ajustes se guardan solo en tu móvil; nosotros no los recibimos, no los vemos y no los podemos ver.</strong> La app es gratuita porque muestra anuncios de Google AdMob, y ese servicio de Google sí trata algunos datos técnicos de tu dispositivo, con tu consentimiento cuando la ley lo exige. Las compras las cobra Google Play. Esta política explica cada caso con detalle.</p>
+</div>
 
-  <h2>Dónde viven tus turnos</h2>
-  <p>El calendario, los turnos y las plantillas que crees se guardan
-  únicamente en el almacenamiento local de tu dispositivo. TurnoZen no envía
-  esos datos a ningún servidor propio. Si desinstalas la aplicación, esos
-  datos se eliminan con ella.</p>
+<h2>1. Quién es el responsable</h2>
+<p>El responsable de la app TurnoZen (<code>com.turnozen.app</code>) es su desarrollador, <strong>FB Apps</strong>, desarrollador independiente establecido en España («nosotros» en esta política).</p>
+<p>Contacto para cualquier asunto de privacidad: <a href="mailto:asier1786@gmail.com">asier1786@gmail.com</a>. Respondemos en un plazo máximo de un mes.</p>
 
-  <h2>Publicidad (Google AdMob)</h2>
-  <p>TurnoZen se financia con anuncios de Google AdMob (banner e
-  intersticial). Para mostrarlos, AdMob puede usar el identificador de
-  publicidad de tu dispositivo. Antes de solicitar cualquier anuncio, se
-  pide tu consentimiento mediante el formulario oficial de Google (UMP),
-  siguiendo el Reglamento General de Protección de Datos (RGPD) en el Espacio
-  Económico Europeo. Puedes revisar o cambiar tu decisión en cualquier
-  momento desde <strong>Ajustes → Opciones de privacidad</strong> dentro de
-  la aplicación.</p>
-  <p>Más información sobre cómo Google trata estos datos:
-  <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">policies.google.com/technologies/ads</a>.</p>
+<h2>2. Lo que se queda en tu dispositivo (y no llega a nosotros)</h2>
+<p>Todo lo que escribes en la app se guarda en el almacenamiento privado de la app en tu móvil:</p>
+<ul>
+  <li>turnos, plantillas de turno, patrones rotativos, notas y festivos locales;</li>
+  <li>ajustes (idioma, tema, territorio para los festivos, tarifa por hora, jornada anual, pluses y demás datos de la nómina estimada);</li>
+  <li>el estado de tus compras y de tus preferencias de avisos.</li>
+</ul>
+<p>La app <strong>no tiene servidor ni cuenta</strong>: no envía esos datos a ningún sitio. Por eso no podemos verlos, recuperarlos ni borrarlos por ti; los controlas tú. Si desinstalas la app o borras sus datos desde los ajustes de Android, desaparecen.</p>
+<p>Algunas funciones usan esos datos <strong>sin que salgan del móvil</strong>:</p>
+<ul>
+  <li><strong>Avisos de turno:</strong> son notificaciones locales que programa tu propio móvil. No hay servidor de notificaciones.</li>
+  <li><strong>Widget de pantalla de inicio:</strong> lee tu cuadrante en el propio móvil. Ten en cuenta que cualquiera que vea tu pantalla de inicio verá también tu turno.</li>
+  <li><strong>Estadísticas y nómina estimada:</strong> se calculan en el móvil. La nómina es una estimación orientativa, no un documento oficial.</li>
+</ul>
 
-  <h2>Menores</h2>
-  <p>TurnoZen no está dirigida a menores de 13 años y no recoge
-  intencionadamente datos de menores de esa edad.</p>
+<h3>Copias, exportaciones y archivos que compartes tú</h3>
+<p>La app puede generar archivos a petición tuya: la copia de seguridad, la imagen o el informe del mes, el archivo de calendario (.ics) y el cuadrante para tu pareja. Los crea en el móvil y es <strong>tú</strong> quien decide a quién o a qué app enviarlos con el menú de compartir de Android. Nosotros no los recibimos. Esos archivos <strong>no están cifrados</strong> y contienen tu cuadrante (la copia de seguridad incluye además tus notas), así que guárdalos y compártelos con el mismo cuidado que cualquier documento personal. Una vez enviados, los trata la app o la persona que los recibe, según sus propias condiciones.</p>
 
-  <h2>Tus derechos</h2>
-  <p>Como los turnos viven solo en tu dispositivo, tú tienes el control
-  directo: borrarlos o desinstalar la aplicación los elimina. Para cualquier
-  duda sobre el consentimiento de anuncios o esta política, escríbenos.</p>
+<h3>Copia de seguridad automática de Android</h3>
+<p>Si tienes activada la copia de seguridad de Google en tu móvil, Android puede incluir los datos de la app en esa copia, guardada en tu cuenta de Google. Es un servicio de Google que configuras tú en los ajustes del sistema; nosotros no tenemos acceso a esas copias. Puedes desactivarlo en Ajustes de Android → Google → Copia de seguridad.</p>
 
-  <h2>Contacto</h2>
-  <p><a href="mailto:turnozen.calendario@gmail.com">turnozen.calendario@gmail.com</a></p>
+<h2>3. Datos que sí salen del dispositivo</h2>
 
-  <h2>Cambios en esta política</h2>
-  <p>Si esta política cambia de forma relevante, se actualizará la fecha de
-  arriba y, cuando corresponda, se avisará dentro de la aplicación.</p>
+<h3>3.1 Anuncios: Google AdMob</h3>
+<p>La versión gratuita muestra anuncios (banner, intersticial y, solo si tú lo eliges, vídeos con recompensa) servidos por Google AdMob, de Google Ireland Limited y Google LLC. Para mostrarlos, medirlos y evitar el fraude, el SDK de Google Mobile Ads incluido en la app recoge automáticamente y envía a Google:</p>
+<div class="table-wrap"><table>
+  <tr><th>Dato</th><th>Para qué lo usa</th></tr>
+  <tr><td>Identificadores del dispositivo: ID de publicidad de Android, ID del conjunto de apps y, donde esté disponible, las API de Privacy Sandbox de Android (temas y atribución)</td><td>Publicidad (también personalizada, si la aceptas), medición y prevención del fraude</td></tr>
+  <tr><td>Dirección IP, de la que se deduce una ubicación aproximada (país o ciudad). <strong>No se usa el GPS ni la ubicación precisa.</strong></td><td>Publicidad, estadísticas y prevención del fraude</td></tr>
+  <tr><td>Interacciones con los anuncios (lanzamientos de la app, toques, visualizaciones de vídeo)</td><td>Publicidad y estadísticas</td></tr>
+  <tr><td>Información de diagnóstico (rendimiento del anuncio, errores, modelo de móvil y versión de Android)</td><td>Estadísticas y prevención del fraude</td></tr>
+</table></div>
+<p><strong>Ninguno de tus turnos, notas ni ajustes se envía a Google ni se usa para elegir anuncios.</strong></p>
+<p><strong>Tu consentimiento.</strong> En el Espacio Económico Europeo, el Reino Unido y Suiza, antes de pedir cualquier anuncio la app te muestra el formulario oficial de consentimiento de Google (UMP, conforme al marco TCF de IAB Europe). Si no aceptas, Google solo sirve anuncios no personalizados o limitados, que aun así usan datos técnicos para mostrarse, contarse y evitar el fraude. Puedes cambiar tu decisión cuando quieras en <strong>Ajustes → Opciones de privacidad de anuncios</strong> dentro de la app.</p>
+<p>Además, en Android puedes borrar o restablecer tu ID de publicidad desde Ajustes → Privacidad → Anuncios (o Ajustes → Google → Anuncios, según el móvil).</p>
+<p>Google trata estos datos como responsable independiente según su propia política: <a href="https://policies.google.com/privacy">Política de privacidad de Google</a> · <a href="https://policies.google.com/technologies/partner-sites">Cómo usa Google los datos de las apps que usan sus servicios</a> · <a href="https://policies.google.com/technologies/ads">Publicidad de Google</a>.</p>
+<p>Si compras «Sin anuncios» o Pro, la app deja de pedir anuncios y el SDK de AdMob deja de enviar datos para anuncios.</p>
+
+<h3>3.2 Compras: Google Play</h3>
+<p>Las compras dentro de la app («Sin anuncios», Pro) las procesa y cobra <strong>Google Play</strong> con tu cuenta de Google. Nosotros no recibimos ni guardamos tu nombre, tu correo ni tus datos de pago. Google Play informa a la app, en tu móvil, de qué has comprado, y la app lo guarda en el propio dispositivo para desbloquear la función; así puedes restaurar la compra sin cuenta. Google nos facilita, a través de Google Play Console, informes de ventas y de pedidos, como a cualquier desarrollador, según las <a href="https://payments.google.com/payments/apis-secure/u/0/get_legal_document?ldo=0&ldt=privacynotice">condiciones de privacidad de Google Payments</a>.</p>
+
+<h3>3.3 Valoraciones: Google Play</h3>
+<p>La app puede mostrarte, de vez en cuando, la ventana oficial de Google Play para valorarla. Tu nota y tu comentario los recibe y publica Google Play; la app no los recibe ni sabe si has valorado.</p>
+
+<h3>3.4 Estadísticas de Google Play</h3>
+<p>Google Play Console nos muestra estadísticas <strong>agregadas</strong> (instalaciones, países, versiones de Android) y, si tú lo has permitido en los ajustes de tu móvil, informes de fallos y bloqueos anónimos que Google recoge en Android. No identifican a nadie y los usamos solo para arreglar errores.</p>
+
+<h3>3.5 Cuando nos escribes</h3>
+<p>Si nos escribes un correo, tratamos tu dirección y lo que nos cuentes para responderte. Lo conservamos hasta 12 meses después de cerrar la consulta y después lo borramos. Si en el mensaje adjuntas una copia de seguridad o una captura, solo la usamos para resolver tu caso.</p>
+
+<h2 id="anteriores">4. Versiones anteriores a la 1.2.0 (cuenta opcional y asistente)</h2>
+<p>Hasta la versión 1.1.x (anterior a noviembre de 2026), TurnoZen ofrecía una cuenta con correo y contraseña y un asistente de inteligencia artificial. Si creaste una cuenta en esas versiones:</p>
+<ul>
+  <li>tu correo, tu perfil (nombre y foto, si los pusiste), tus turnos, tus tipos de turno y las entradas del diario de ánimo se guardaban en Supabase (Supabase, Inc.), el proveedor de alojamiento que usábamos;</li>
+  <li>los mensajes que escribías al asistente se enviaban a un proveedor externo de inteligencia artificial solo para generar la respuesta; nosotros no los guardábamos.</li>
+</ul>
+<p>La cuenta, el asistente y ese servidor <strong>están retirados</strong>, y <strong>en noviembre de 2026 borramos definitivamente la base de datos entera</strong>, con todas las cuentas y todo lo que contenían. Ya no conservamos ningún dato de esas cuentas, ni podemos recuperarlo. Esos datos nunca se usaron para publicidad ni se compartieron con nadie. La app actual no crea cuentas, no usa inteligencia artificial y no envía nada a ningún servidor nuestro.</p>
+
+<h2>5. Para qué y con qué base legal</h2>
+<div class="table-wrap"><table>
+  <tr><th>Tratamiento</th><th>Base legal (RGPD)</th></tr>
+  <tr><td>Anuncios personalizados</td><td>Tu consentimiento (art. 6.1.a), que puedes retirar cuando quieras</td></tr>
+  <tr><td>Anuncios no personalizados, medición y prevención del fraude</td><td>Interés legítimo en financiar una app gratuita y evitar el fraude (art. 6.1.f)</td></tr>
+  <tr><td>Compras</td><td>Ejecución del contrato de compra (art. 6.1.b)</td></tr>
+  <tr><td>Responder a tus correos</td><td>Interés legítimo en atenderte (art. 6.1.f)</td></tr>
+  <tr><td>Cumplir obligaciones legales (fiscales, requerimientos de autoridades)</td><td>Obligación legal (art. 6.1.c)</td></tr>
+</table></div>
+<p>No tomamos decisiones automatizadas con efectos jurídicos sobre ti. La única elaboración de perfiles es la que hace Google para los anuncios personalizados, si la aceptas.</p>
+
+<h2>6. Con quién se comparten los datos</h2>
+<ul>
+  <li><strong>Google</strong> (AdMob, Google Play, Google Payments), como se explica en la sección 3.</li>
+  <li><strong>Autoridades</strong>, solo si una ley o una orden judicial nos obliga.</li>
+</ul>
+<p><strong>No vendemos tus datos</strong> ni los cedemos a nadie más.</p>
+
+<h2>7. Transferencias fuera del Espacio Económico Europeo</h2>
+<p>Google puede tratar datos en Estados Unidos y en otros países. Google LLC está adherida al Marco de Privacidad de Datos UE-EE. UU. y, además, usa las cláusulas contractuales tipo aprobadas por la Comisión Europea.</p>
+
+<h2>8. Cuánto tiempo se conservan</h2>
+<ul>
+  <li><strong>Datos de tu dispositivo:</strong> mientras tengas la app instalada y no los borres.</li>
+  <li><strong>Datos de anuncios:</strong> los plazos de Google, descritos en su <a href="https://policies.google.com/technologies/retention">política de conservación</a>.</li>
+  <li><strong>Correos de soporte:</strong> hasta 12 meses después de cerrar la consulta.</li>
+</ul>
+
+<h2 id="borrar">9. Tus derechos y cómo borrar tus datos</h2>
+<p>Tienes derecho a acceder a tus datos, rectificarlos, borrarlos, oponerte a su tratamiento, limitarlo, llevarlos a otro servicio y retirar tu consentimiento en cualquier momento, sin que eso afecte a lo hecho antes.</p>
+<h3>Cómo pedir el borrado en TurnoZen</h3>
+<ol>
+  <li><strong>Tu cuadrante, notas y ajustes (en tu móvil):</strong> desinstala TurnoZen, o ve a Ajustes de Android → Aplicaciones → TurnoZen → Almacenamiento → Borrar datos. Se borra todo al instante y nosotros no guardamos ninguna copia. Si quieres llevártelos antes, usa Ajustes → Copia de seguridad en la app.</li>
+  <li><strong>Correos que nos hayas enviado:</strong> escribe a <a href="mailto:asier1786@gmail.com?subject=Borrar%20mis%20datos%20de%20TurnoZen">asier1786@gmail.com</a> con el asunto «Borrar mis datos». Los borramos en un máximo de 30 días y te lo confirmamos. Las cuentas de versiones anteriores a la 1.2.0 ya están borradas (sección 4): no hace falta que lo pidas.</li>
+  <li><strong>Datos de anuncios:</strong> los tiene Google. Retira el consentimiento en Ajustes → Opciones de privacidad de anuncios (en la app) y borra o restablece tu ID de publicidad en los ajustes de Android. Para el resto, usa las herramientas de <a href="https://myaccount.google.com/data-and-privacy">Google</a>.</li>
+</ol>
+<p>Para ejercer cualquier otro derecho, escríbenos al mismo correo. Si crees que no hemos atendido bien tu solicitud, puedes reclamar ante la <a href="https://www.aepd.es">Agencia Española de Protección de Datos</a> o ante la autoridad de tu país.</p>
+
+<h3>Si vives fuera de la Unión Europea</h3>
+<p><strong>Estados Unidos (incluida California):</strong> no vendemos datos personales a cambio de dinero. El uso de identificadores por AdMob para anuncios personalizados puede considerarse «compartir» para publicidad conductual; para oponerte, borra tu ID de publicidad en los ajustes de Android o desactiva la personalización en tu cuenta de Google. No te trataremos de forma distinta por ejercer tus derechos.</p>
+<p><strong>Brasil (LGPD) y otros países:</strong> tienes derechos equivalentes a los descritos arriba y los ejerces de la misma forma, escribiendo al correo de contacto.</p>
+
+<h2>10. Permisos que pide la app</h2>
+<div class="table-wrap"><table>
+  <tr><th>Permiso</th><th>Para qué</th></tr>
+  <tr><td>Internet y estado de la red</td><td>Anuncios y compras. El calendario funciona sin conexión.</td></tr>
+  <tr><td>Notificaciones (Android 13 o superior, te lo pregunta)</td><td>Avisos de turno, solo si los activas</td></tr>
+  <tr><td>Iniciar al encender, vibración y mantener activo</td><td>Volver a programar tus avisos después de reiniciar el móvil y hacerlos sonar</td></tr>
+  <tr><td>ID de publicidad y API de anuncios de Android</td><td>Los usa el SDK de AdMob (sección 3.1)</td></tr>
+  <tr><td>Facturación de Google Play</td><td>Compras dentro de la app</td></tr>
+</table></div>
+<p>La app <strong>no</strong> pide acceso a tu ubicación, contactos, cámara, micrófono, fotos, archivos ni al calendario del sistema.</p>
+
+<h2>11. Seguridad</h2>
+<p>Tus datos están en el almacenamiento privado de la app, protegido por el aislamiento de Android: otras apps no pueden leerlo. La app no los cifra por su cuenta, así que protege tu móvil con bloqueo de pantalla. Todo lo que el SDK de anuncios y Google Play envían viaja cifrado (HTTPS/TLS). Ningún sistema es invulnerable; si detectáramos una brecha que afecte a datos que tenemos nosotros, te avisaríamos y lo notificaríamos a la autoridad como exige la ley.</p>
+
+<h2>12. Menores</h2>
+<p>TurnoZen está pensada para personas que trabajan, no para menores. No recogemos a sabiendas datos de menores de 14 años en España, ni de menores de 13 en otros países (o de la edad mínima que fije su ley). Si eres madre, padre o tutor y crees que un menor nos ha enviado datos, escríbenos y los borraremos.</p>
+
+<h2>13. Cambios en esta política</h2>
+<p>Si cambiamos esta política, actualizaremos la fecha de arriba. Si el cambio afecta a qué datos se tratan o para qué, lo avisaremos también dentro de la app antes de que se aplique. Nunca empezaremos a enviar tu cuadrante fuera del móvil sin pedírtelo antes de forma expresa.</p>
+
+<h2>14. Idioma</h2>
+<p>Esta política está en español y en inglés. Si hubiera diferencias entre las dos, prevalece la versión en español.</p>
+</article>
+
+<hr class="big">
+
+<!-- ============================ ENGLISH ============================ -->
+<article id="en" lang="en">
+<h1>TurnoZen Privacy Policy</h1>
+<p class="muted">Last updated: 20 November 2026 · Applies to app version 1.2.0 and later</p>
+<nav class="lang"><a href="#es">Español</a><a href="#en">English</a></nav>
+
+<div class="box">
+<p><strong>In short.</strong> TurnoZen is a shift calendar that works without an account and offline. <strong>Your schedule, templates, notes and settings are stored only on your phone; we do not receive them, we do not see them and we cannot see them.</strong> The app is free because it shows Google AdMob ads, and that Google service does process some technical data about your device, with your consent where the law requires it. Purchases are charged by Google Play. This policy explains each case in detail.</p>
+</div>
+
+<h2>1. Who is responsible</h2>
+<p>The controller of the TurnoZen app (<code>com.turnozen.app</code>) is its developer, <strong>FB Apps</strong>, an independent developer based in Spain ("we" in this policy).</p>
+<p>Contact for any privacy matter: <a href="mailto:asier1786@gmail.com">asier1786@gmail.com</a>. We reply within one month at the latest.</p>
+
+<h2>2. What stays on your device (and never reaches us)</h2>
+<p>Everything you enter in the app is stored in the app's private storage on your phone:</p>
+<ul>
+  <li>shifts, shift templates, rotating patterns, notes and local holidays;</li>
+  <li>settings (language, theme, holiday region, hourly rate, annual hours, allowances and other estimated-pay data);</li>
+  <li>the status of your purchases and your reminder preferences.</li>
+</ul>
+<p>The app has <strong>no server and no account</strong>: it does not send this data anywhere. That is why we cannot see, recover or delete it for you; you control it. If you uninstall the app or clear its data in Android settings, it is gone.</p>
+<p>Some features use this data <strong>without it leaving the phone</strong>:</p>
+<ul>
+  <li><strong>Shift reminders:</strong> local notifications scheduled by your own phone. There is no notification server.</li>
+  <li><strong>Home screen widget:</strong> reads your schedule on the phone itself. Anyone who sees your home screen will also see your shift.</li>
+  <li><strong>Statistics and estimated pay:</strong> calculated on the phone. The pay figure is an estimate, not an official document.</li>
+</ul>
+
+<h3>Backups, exports and files you share yourself</h3>
+<p>At your request, the app can create files: the backup, the month image or report, the calendar file (.ics) and the schedule for your partner. They are created on the phone and <strong>you</strong> decide whom or which app to send them to through Android's share menu. We do not receive them. These files are <strong>not encrypted</strong> and contain your schedule (the backup also includes your notes), so store and share them with the same care as any personal document. Once sent, they are handled by the recipient app or person under their own terms.</p>
+
+<h3>Android automatic backup</h3>
+<p>If Google backup is turned on on your phone, Android may include the app's data in that backup, stored in your Google account. This is a Google service that you control in system settings; we have no access to those backups. You can turn it off in Android Settings → Google → Backup.</p>
+
+<h2>3. Data that does leave the device</h2>
+
+<h3>3.1 Ads: Google AdMob</h3>
+<p>The free version shows ads (banner, interstitial and, only if you choose to watch one, rewarded videos) served by Google AdMob, from Google Ireland Limited and Google LLC. To show, measure and protect these ads against fraud, the Google Mobile Ads SDK included in the app automatically collects and sends to Google:</p>
+<div class="table-wrap"><table>
+  <tr><th>Data</th><th>What it is used for</th></tr>
+  <tr><td>Device identifiers: Android advertising ID, app set ID and, where available, Android Privacy Sandbox APIs (topics and attribution)</td><td>Advertising (including personalised, if you agree), measurement and fraud prevention</td></tr>
+  <tr><td>IP address, from which an approximate location (country or city) is inferred. <strong>GPS and precise location are not used.</strong></td><td>Advertising, analytics and fraud prevention</td></tr>
+  <tr><td>Ad interactions (app launches, taps, video views)</td><td>Advertising and analytics</td></tr>
+  <tr><td>Diagnostic information (ad performance, errors, phone model and Android version)</td><td>Analytics and fraud prevention</td></tr>
+</table></div>
+<p><strong>None of your shifts, notes or settings are sent to Google or used to choose ads.</strong></p>
+<p><strong>Your consent.</strong> In the European Economic Area, the United Kingdom and Switzerland, before requesting any ad the app shows Google's official consent form (UMP, under the IAB Europe TCF framework). If you do not agree, Google only serves non-personalised or limited ads, which still use technical data to be displayed, counted and protected against fraud. You can change your choice at any time in <strong>Settings → Ad privacy options</strong> in the app.</p>
+<p>On Android you can also delete or reset your advertising ID in Settings → Privacy → Ads (or Settings → Google → Ads, depending on the phone).</p>
+<p>Google processes this data as an independent controller under its own policy: <a href="https://policies.google.com/privacy">Google Privacy Policy</a> · <a href="https://policies.google.com/technologies/partner-sites">How Google uses data from apps that use its services</a> · <a href="https://policies.google.com/technologies/ads">Google advertising</a>.</p>
+<p>If you buy "No ads" or Pro, the app stops requesting ads and the AdMob SDK stops sending data for ads.</p>
+
+<h3>3.2 Purchases: Google Play</h3>
+<p>In-app purchases ("No ads", Pro) are processed and charged by <strong>Google Play</strong> with your Google account. We do not receive or store your name, email or payment details. Google Play tells the app, on your phone, what you have bought, and the app stores that on the device to unlock the feature, so you can restore your purchase without an account. Through Google Play Console, Google gives us sales and order reports, as it does to any developer, under the <a href="https://payments.google.com/payments/apis-secure/u/0/get_legal_document?ldo=0&ldt=privacynotice">Google Payments privacy notice</a>.</p>
+
+<h3>3.3 Ratings: Google Play</h3>
+<p>From time to time the app may show Google Play's official rating window. Your rating and review are received and published by Google Play; the app does not receive them and does not know whether you rated it.</p>
+
+<h3>3.4 Google Play statistics</h3>
+<p>Google Play Console shows us <strong>aggregated</strong> statistics (installs, countries, Android versions) and, if you have allowed it in your phone settings, anonymous crash and freeze reports collected by Google on Android. They do not identify anyone and we use them only to fix bugs.</p>
+
+<h3>3.5 When you write to us</h3>
+<p>If you email us, we process your address and what you tell us in order to reply. We keep it for up to 12 months after the request is closed and then delete it. If you attach a backup or a screenshot, we use it only to solve your issue.</p>
+
+<h2 id="previous">4. Versions before 1.2.0 (optional account and assistant)</h2>
+<p>Up to version 1.1.x (before November 2026), TurnoZen offered an email-and-password account and an artificial intelligence assistant. If you created an account in those versions:</p>
+<ul>
+  <li>your email, your profile (name and photo, if you added them), your shifts, your shift types and your mood journal entries were stored in Supabase (Supabase, Inc.), the hosting provider we used;</li>
+  <li>the messages you wrote to the assistant were sent to an external artificial intelligence provider only to generate the answer; we did not store them.</li>
+</ul>
+<p>The account, the assistant and that server <strong>have been withdrawn</strong>, and <strong>in November 2026 we permanently deleted the entire database</strong>, with every account and everything in it. We no longer keep any data from those accounts and cannot recover it. That data was never used for advertising or shared with anyone. The current app creates no accounts, uses no artificial intelligence and sends nothing to any server of ours.</p>
+
+<h2>5. Purposes and legal bases</h2>
+<div class="table-wrap"><table>
+  <tr><th>Processing</th><th>Legal basis (GDPR)</th></tr>
+  <tr><td>Personalised ads</td><td>Your consent (Art. 6(1)(a)), which you can withdraw at any time</td></tr>
+  <tr><td>Non-personalised ads, measurement and fraud prevention</td><td>Legitimate interest in funding a free app and preventing fraud (Art. 6(1)(f))</td></tr>
+  <tr><td>Purchases</td><td>Performance of the purchase contract (Art. 6(1)(b))</td></tr>
+  <tr><td>Replying to your emails</td><td>Legitimate interest in assisting you (Art. 6(1)(f))</td></tr>
+  <tr><td>Legal obligations (tax, requests from authorities)</td><td>Legal obligation (Art. 6(1)(c))</td></tr>
+</table></div>
+<p>We make no automated decisions with legal effects on you. The only profiling is the one Google performs for personalised ads, if you agree to it.</p>
+
+<h2>6. Who data is shared with</h2>
+<ul>
+  <li><strong>Google</strong> (AdMob, Google Play, Google Payments), as explained in section 3.</li>
+  <li><strong>Authorities</strong>, only if a law or a court order requires it.</li>
+</ul>
+<p><strong>We do not sell your data</strong> and we do not give it to anyone else.</p>
+
+<h2>7. Transfers outside the European Economic Area</h2>
+<p>Google may process data in the United States and other countries. Google LLC participates in the EU-U.S. Data Privacy Framework and, in addition, uses the standard contractual clauses approved by the European Commission.</p>
+
+<h2>8. How long data is kept</h2>
+<ul>
+  <li><strong>Data on your device:</strong> as long as the app is installed and you do not delete it.</li>
+  <li><strong>Ad data:</strong> Google's periods, described in its <a href="https://policies.google.com/technologies/retention">retention policy</a>.</li>
+  <li><strong>Support emails:</strong> up to 12 months after the request is closed.</li>
+</ul>
+
+<h2 id="delete">9. Your rights and how to delete your data</h2>
+<p>You have the right to access, rectify and erase your data, to object to and restrict its processing, to data portability and to withdraw your consent at any time, without affecting anything done before.</p>
+<h3>How to request deletion in TurnoZen</h3>
+<ol>
+  <li><strong>Your schedule, notes and settings (on your phone):</strong> uninstall TurnoZen, or go to Android Settings → Apps → TurnoZen → Storage → Clear data. Everything is deleted instantly and we keep no copy. To keep it first, use Settings → Backup in the app.</li>
+  <li><strong>Emails you have sent us:</strong> email <a href="mailto:asier1786@gmail.com?subject=Delete%20my%20TurnoZen%20data">asier1786@gmail.com</a> with the subject "Delete my data". We delete them within 30 days at most and confirm it to you. Accounts from versions before 1.2.0 have already been deleted (section 4): you do not need to ask.</li>
+  <li><strong>Ad data:</strong> held by Google. Withdraw consent in Settings → Ad privacy options (in the app) and delete or reset your advertising ID in Android settings. For anything else, use <a href="https://myaccount.google.com/data-and-privacy">Google's tools</a>.</li>
+</ol>
+<p>To exercise any other right, write to the same address. If you believe we have not handled your request properly, you can complain to the <a href="https://www.aepd.es">Spanish Data Protection Agency (AEPD)</a> or to the authority in your country.</p>
+
+<h3>If you live outside the European Union</h3>
+<p><strong>United States (including California):</strong> we do not sell personal information for money. AdMob's use of identifiers for personalised ads may be considered "sharing" for cross-context behavioural advertising; to opt out, delete your advertising ID in Android settings or turn off ad personalisation in your Google account. We will not treat you differently for exercising your rights.</p>
+<p><strong>Brazil (LGPD) and other countries:</strong> you have rights equivalent to those described above and exercise them the same way, by writing to the contact address.</p>
+
+<h2>10. Permissions the app requests</h2>
+<div class="table-wrap"><table>
+  <tr><th>Permission</th><th>Why</th></tr>
+  <tr><td>Internet and network state</td><td>Ads and purchases. The calendar works offline.</td></tr>
+  <tr><td>Notifications (Android 13 and later, the app asks you)</td><td>Shift reminders, only if you turn them on</td></tr>
+  <tr><td>Run at startup, vibration and keep awake</td><td>Reschedule your reminders after the phone restarts and make them ring</td></tr>
+  <tr><td>Advertising ID and Android ad APIs</td><td>Used by the AdMob SDK (section 3.1)</td></tr>
+  <tr><td>Google Play billing</td><td>In-app purchases</td></tr>
+</table></div>
+<p>The app does <strong>not</strong> request access to your location, contacts, camera, microphone, photos, files or the system calendar.</p>
+
+<h2>11. Security</h2>
+<p>Your data is in the app's private storage, protected by Android's sandboxing: other apps cannot read it. The app does not encrypt it on its own, so protect your phone with a screen lock. Everything the ads SDK and Google Play send travels encrypted (HTTPS/TLS). No system is invulnerable; if we detected a breach affecting data we hold, we would inform you and notify the authority as the law requires.</p>
+
+<h2>12. Children</h2>
+<p>TurnoZen is designed for working adults, not for children. We do not knowingly collect data from children under 14 in Spain, or under 13 in other countries (or the minimum age set by their law). If you are a parent or guardian and believe a child has sent us data, write to us and we will delete it.</p>
+
+<h2>13. Changes to this policy</h2>
+<p>If we change this policy, we will update the date at the top. If a change affects what data is processed or why, we will also announce it inside the app before it takes effect. We will never start sending your schedule off the phone without first asking for your explicit permission.</p>
+
+<h2>14. Language</h2>
+<p>This policy is available in Spanish and English. If there is any difference between the two, the Spanish version prevails.</p>
+</article>
+
+</main>
 </body>
 </html>

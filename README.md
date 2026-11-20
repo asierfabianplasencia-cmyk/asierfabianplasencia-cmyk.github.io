@@ -1,12 +1,12 @@
-# turnozen.calendario
+# TurnoZen · web
 
-Página de política de privacidad y `app-ads.txt` de [TurnoZen](https://play.google.com/store/apps/details?id=com.turnozen.app), publicada en GitHub Pages.
+Página pública de TurnoZen, calendario de turnos para Android, publicada con GitHub Pages.
 
-- Política de privacidad: https://asierfabianplasencia-cmyk.github.io/
-- app-ads.txt: https://asierfabianplasencia-cmyk.github.io/app-ads.txt
+- **Política de privacidad:** https://asierfabianplasencia-cmyk.github.io/
+- **app-ads.txt de AdMob:** https://asierfabianplasencia-cmyk.github.io/app-ads.txt
+- **App en Google Play:** https://play.google.com/store/apps/details?id=com.turnozen.app
 
-La línea de `app-ads.txt` con `pub-2102312483372156` está deducida del ID de
-aplicación de AdMob usado en el código (`ca-app-pub-2102312483372156~...`).
-Pendiente de confirmar copiando la línea exacta desde AdMob → Aplicaciones →
-Ver todas las aplicaciones → pestaña **app-ads.txt** (ver
-`docs/PLAN-SPRINTS.md` en el repo principal, bloque 0.5).
+La política vigente es del 20 de noviembre de 2026, en español e inglés. La misma versión está publicada en Google Docs, que es el enlace que figura en Google Play.
+
+Contacto: asier1786@gmail.com
+
